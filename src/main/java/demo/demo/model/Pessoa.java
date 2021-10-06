@@ -19,13 +19,15 @@ public class Pessoa {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     long id;
     String nome;
+    String sobreNome;
 
     public Pessoa() {
     }
 
-    public Pessoa(long id, String nome) {
+    public Pessoa(long id, String nome, String sobreNome) {
         this.id = id;
         this.nome = nome;
+        this.sobreNome = sobreNome;
     }
 
     public long getId() {
@@ -42,6 +44,14 @@ public class Pessoa {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public String getSobreNome() {
+        return this.sobreNome;
+    }
+
+    public void setSobreNome(String sobreNome) {
+        this.nome = sobreNome;
     }
 
 }
