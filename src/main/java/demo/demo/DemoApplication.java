@@ -22,8 +22,8 @@ public class DemoApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-		Pessoa us1 = new Pessoa(1L, "John Lennon");
-		Pessoa us2 = new Pessoa(2L, "Paul McCartney");
+		Pessoa us1 = new Pessoa(1L, "John Lennon", "Lennnon");
+		Pessoa us2 = new Pessoa(2L, "Paul McCartney", "McCartney");
 
 		pessoaRepository.saveAll(Arrays.asList(us1, us2));
 
