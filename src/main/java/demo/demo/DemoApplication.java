@@ -24,8 +24,9 @@ public class DemoApplication implements CommandLineRunner {
 
 		Pessoa us1 = new Pessoa(1L, "John Lennon", "Lennnon");
 		Pessoa us2 = new Pessoa(2L, "Paul McCartney", "McCartney");
+		Pessoa us3 = new Pessoa(3L, "Maria ", "Bonita");
 
-		pessoaRepository.saveAll(Arrays.asList(us1, us2));
+		pessoaRepository.saveAll(Arrays.asList(us1, us2, us3));
 
 	}
 

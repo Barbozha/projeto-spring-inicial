@@ -47,7 +47,7 @@ public class Pessoa {
     }
 
     public void setSobreNome(String sobreNome) {
-        this.nome = sobreNome;
+        this.sobreNome = sobreNome;
     }
 
 }
