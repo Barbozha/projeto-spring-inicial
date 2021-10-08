@@ -9,6 +9,6 @@ POST {{host}}
 Content-Type: application/json
 
 {
-    "nome": "Maria",
-    "sobreNome": "Pereira"
+    "nome": "Jorge",
+    "sobreNome": "Barboza"
 }
